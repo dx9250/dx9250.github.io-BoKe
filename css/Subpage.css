@@ -1,0 +1,317 @@
+/*公共样式*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*背景色块*/
+
+.container {
+    background: #000;
+    width: 1600px;
+    margin: 0 auto;
+}
+/*左边的大盒子*/
+.container .sidebar {
+    width: 420px;
+    height: 100%;
+    background: #ccc;
+    float: left;
+    position: fixed;
+    background-position-x: center;
+
+}
+
+/*左边头像*/
+
+.container .sidebar .logo {
+    text-align: center;
+    transition: 1s;
+}
+
+.container .sidebar .logo img{
+    border-radius: 200px;
+    width: 180px;
+    height: 180px;
+    margin-top:50px;
+    transition: 1s;
+} 
+
+.container .sidebar .logo img:hover {
+    transform: rotate(360deg);
+}
+
+/*左侧导航*/
+.container .sidebar .nav ul li a {
+    font-size: 30px;
+    color: #898989;
+    padding-bottom: 5px;
+    transition: all 1s;
+}
+
+.container .sidebar .nav ul {
+    text-align: center;    
+}
+
+.container .sidebar .nav ul li {
+    padding-top: 50px;
+}
+
+.container .sidebar .nav ul li a:hover {
+    border-bottom: white 1px solid;
+    transition: 1s;
+    color: white;
+}
+
+/*音乐控制键*/
+
+.container .sidebar .audio {
+    text-align:center;
+    margin-top: 50px;
+}
+
+/*右边大盒子*/
+
+.main {
+    width: 1183px;
+    height: 2655px;
+    background: red;
+    float: right;
+    
+}
+
+.main .main_sy {
+    width: 1183px;
+    height: 850px;
+    background: #Fff;
+    
+    
+}
+
+/*右边首页*/
+
+.main .main_sy .main_zt h1 {
+    padding: 5px 20px 10px 50px;
+    transition: all 1.5s;    
+    color: #666;
+    
+}
+
+/*上面首页浮动效果*/
+
+.main .main_zt h1:hover {
+    margin-left: 880px;
+    transition: all 1.5s;
+}
+
+.main .main_sy .main_nr {
+    width: 1183px;
+    height: 793px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+/*头像效果*/
+
+.main .main_sy .main_nr img {
+    border-radius: 190px;
+    width: 150px;
+    height: 150px;
+    
+}
+/*头像下面的文字*/
+.main .main_sy .main_nr p {
+    margin: 10px 0px;   
+    font-size: 25px; 
+    font-family: "楷体";
+    font-weight: 500;
+}
+
+.main .main_sy .main_nr h1 {
+    font-family: "楷体";   
+    font-size: 50px; 
+}
+
+.main .main_sy .main_nr .A {
+    margin:25px 0px ;
+}
+
+.main .main_sy .main_nr h2 {
+    color: coral;
+    font-weight: bold;
+    font-family: "楷体";
+    margin-top: 50px;
+}
+
+
+/*运动页面*/
+
+.main .main_yd {
+    width: 1183px;
+    height: 800px;
+    background: #fff;
+}
+/*运动子页字体*/
+.main .main_yd .main_zt h1 {
+    padding: 5px 20px 10px 50px;
+    transition: all 1.5s;    
+    color: #666;
+}
+
+
+.main .main_yd .main_nr h2 {
+    text-align: center;
+    font-family: "楷体";
+    padding-top: 20px;
+}
+/*运动子页的图片*/
+
+.main .main_yd .main_nr ul {
+    height: 600px;
+}
+
+.main .main_yd .main_nr ul li img{
+    float: left;
+    margin: 15px;
+    transition:all 1s;
+}
+
+/*图片放上去的效果*/
+
+.main .main_yd .main_nr ul li img:hover {
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+
+/*旅游子页宽高*/
+
+.main .main_ly {
+    width: 1183px;
+    height: 620px;
+    background: #fff;
+}
+
+/*旅游浮动文字*/
+
+.main .main_ly .main_zt h1 {
+    padding: 5px 20px 10px 50px;
+    transition: all 1.5s;
+    color: #666;    
+}
+
+/*旅游文字*/
+
+.main .main_ly .main_nr h2 {
+    text-align: center;
+    font-family: "楷体";    
+    padding-top: 10px;
+
+}
+
+.main .main_ly .main_zt h2 p {
+    padding: 10px 0px;
+}
+
+/*旅游子页图片*/
+
+.main .main_ly .main_nr ul li img {
+    float: left;
+    padding: 16px;
+    transition: 2s;
+    background: #898989;
+
+}
+
+/*鼠标浮到图片上的效果*/
+
+.main .main_ly .main_nr ul li img:hover {
+    background: #019875;
+    transition: 2s;
+    opacity: 0.8;
+    
+
+}
+ /*旅游图片定位*/
+.main .main_ly .main_nr ul li .zuo {
+    transform: rotate(-20deg);
+    margin-left: 140px;    
+}
+
+.main .main_ly .main_nr ul li .you {
+    transform: rotate(20deg);
+    margin-left: 125px;
+}
+
+.main .main_ly .main_nr ul li .zj {
+    margin: 10px;
+    margin-left: 132px;
+}
+
+/*旅游子页 ul宽高*/
+.main .main_ly .main_nr ul {
+    height: 430px;
+}
+
+.main .main_gy {
+    width: 1183px;
+    height: 348px;
+    background: #ffffff;
+}
+
+    /*关于子页的放上去滑动*/
+
+.main .main_gy .main_zt h1{
+    padding: 5px 20px 10px 50px;
+    transition: all 1.5s;
+    color: #666;
+}
+    /*下面的联系方式*/
+.main .main_gy .main_nr {
+    height: 348px;
+}
+    
+.main .main_gy .main_nr .main_nr_1 P {
+    padding: 10px;
+}
+    
+.main .main_gy .main_nr .main_nr_1 {
+    width: 1183px;
+    height: 200px;
+}
+
+.main .main_gy .main_nr .main_nr_1 P{
+    font-size: 28px;
+    font-family: "楷体";
+}
+
+/*联系方式区域的二维码*/
+
+.main .main_gy .main_nr .main_nr_1 img {
+    float: right;
+    margin-right: 50px;
+}
+
+    /*下面的备案号*/
+.main .main_gy .main_nr .main_nr_2 {
+    width: 1183px;
+    height: 150px;
+    background: #898989;
+    text-align: center;
+}
+    /*备案字体*/
+.main .main_gy .main_nr .main_nr_2 p {
+    font-size: 25px;
+    font-family: "楷体";
+    line-height: 50px;
+}

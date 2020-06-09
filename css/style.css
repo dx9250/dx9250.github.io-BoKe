@@ -1,0 +1,88 @@
+/*公共样式*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+/*背景*/
+body {
+    background: url(../image/夜景.jpg)no-repeat;
+    background-position-x:center;
+}
+
+/*中间内容区*/
+ .box {
+    text-align: center;
+    width: 360px;
+    height: 435px;
+    background-color: rgba( 0,0, 0, .5);
+    margin: 0 auto;
+    margin-top: 80px;
+
+ }
+/*头像*/
+ .box img {
+     border-radius: 190px;
+     width: 150px;
+     height: 150px;
+     transition: 1s;
+     margin-top: 20px;
+ }
+/*头像旋转效果*/
+ .box img:hover {
+     transform: rotate(360deg);
+     transition: 1s;
+ }
+/*姓名区*/
+ .box h1 {
+     color: white;
+     font-size: 40px;
+     font-weight: 500;
+     padding: 10px 0px;
+ }
+/*下面是一些句子*/
+ .box h5 {
+     color: white;
+     font-weight: 400;
+     padding: 0px 0px 15px 0px;
+     letter-spacing: 3.5px;
+ }
+
+ .box p {
+    color: white;
+    font-weight: 200;
+    letter-spacing: 1px;
+ }
+/*下面的是导航栏*/
+.box ul {
+    height: 50px;
+    width: 360px;
+    margin-top: 15px;
+}
+
+ .box ul li a{
+     color: white;
+     float: left;
+     width: 80px;
+     height: 50px;
+     line-height: 50px;
+     border: 1px solid #000;
+     background: rgba( 0,0, 0, .5);
+     margin-left: 60px;
+
+ }
+
+ .box ul li a:hover {
+     transition: all 1s;
+     background: red;
+     
+ }
+ 

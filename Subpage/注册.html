@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width initial-scale=1.0">
+    <script>
+        function dl()
+        {
+            alert("注册成功")
+        }
+    </script>
+    <title>独行网络科技;注册</title>
+    <link rel="shortcut icon" href="..\image\LOGO.ico">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .BJ {
+            background-image: url(../image/3.jpg);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100%;
+        }
+
+        .main {
+            width: 320px;
+            height: 480px;
+            border: 1px solid #fff;
+            margin: 0 auto;
+            margin-top: 180px;
+            text-align: center;
+            border-radius: 10px;
+        }        
+
+        .main .header {
+            width: 320px;
+            height: 100px;
+            background: #00baff;
+            border-radius: 10px;
+
+            }
+
+        .main .header h1 {
+            text-align: center;
+            color: #fff;
+            line-height: 100px;
+            display: inline;
+        }
+
+        .BJ .main .content {
+            width: 320px;
+            height: 250px;
+        }
+
+        .BJ .main .content .A {
+            display: block;
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 15px;
+        }
+       
+        .BJ .main .content .A input {
+            vertical-align: middle;
+            height: 25px;
+        }
+        
+        .BJ .main a {
+            color: black;
+            padding: 17px;
+        }
+    </style>
+</head>
+<body>
+    <body class="BJ">
+        <div class="main">
+            <div class="header">
+                <h1>独行网络安全验证</h1>
+            </div>
+            <div class="content">
+               <span class="A">账号：<input type="text" placeholder="请输入账号"></span>
+               <span class="A">密码：<input type="text" placeholder="请输入密码"></span>
+               <span class="A">密码：<input type="text" placeholder="再次输入密码"></span>
+               <span class="A">手机号：<input type="text" placeholder="请输入中国内陆手机号"></span>
+               <span class="A"><input type="text" placeholder="请输入验证码" style="width: 80px;margin-left:50px"><button style="margin-left: 10px;height:30px">获取验证码</button></span>
+               <span class="A">推荐人：<input type="text" placeholder="请输入推荐人用户名"></span>
+               <button onclick="dl()" style="width: 200px;height: 50px;border-radius: 10px;border: 1px solid black;margin-top:20px;margin-left: 70px;;"><a href="..\index.HTML">注册</a></button>
+</body>
+</html> 

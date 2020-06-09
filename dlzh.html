@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>独行网络科技</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        a {
+            text-decoration: none;
+        }
+
+        ul li {
+            list-style: none;
+        }
+        /*这是头部*/
+        .header {
+            width: 1200px;
+            background: #898989;
+            height: 50px;
+            margin: 0 auto;
+           
+        }
+
+        .header .nav {
+            width: 830px;
+            height: 50px;
+            margin: 0 auto;
+            margin-left: 35px;
+            float: left;
+
+        }
+        
+        .header .logo {
+            width: 176px;
+            height: 50px;
+            float: left;
+            
+            
+        }
+
+        .header img{
+            width: 50px;
+            height: 50px;
+            margin-left: 15px;
+            float: left;
+        }
+
+        .header .logo span {
+            line-height: 50px;
+            margin-left: 15px;
+            font-family: "楷体-简";
+        }
+
+        .header .nav ul li a {
+            color: #fff;
+            float: left;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            border-right: 1px solid #000;
+            
+        }
+
+        .header .nav ul li a:hover {
+            color: black;
+            background: #fff;
+         
+        }
+
+        .header .navr  {
+            width: 100px;
+            height: 50px;
+            float: left;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .header .navr a{
+            color: #fff;
+}
+       
+        .header .navr a:hover{
+            color: red;
+        }
+    /*这是banner*/
+        .banner {
+            width: 1200px;
+            height: 600px;
+            margin: 0 auto;
+        }
+ /*这是banner下面的文字*/
+        .navbar {
+            width: 1200px;
+            height: 50px;
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+       
+        .navbar img {
+            float: right;
+        }
+
+        .navbar .wz {
+            line-height: 40px;
+            color: #898989;
+            margin-left: 20px;
+            float: left;
+        }
+
+        .navbar audio {
+            height: 40px;
+            margin-left: 100px;
+            width: 500px;
+            
+        }
+        /*这是博客内容*/
+        .main {
+            width: 1200px;
+            height: 480px;
+            margin: 0 auto;
+            background-image: url(image/背景1.jpg);
+        }
+
+        .main .tltie  {
+            text-align: center;
+            font-size: 30px;
+            padding-top: 10px;
+        }
+        
+        .main .LOGO p,h3 {
+            color: #fff;
+        }
+
+        .main .LOGO {
+            text-align: center;
+            padding-top: 10px;
+
+        }
+
+        .main .LOGO img {
+            width: 150px;
+            border-radius: 100px;
+            height: 150px;
+            
+        }
+
+        .main .LOGO p {
+            font-family: "楷体";
+            font-size: 30px;
+            padding-top: 20px;
+        }
+
+        .main .LOGO audio {
+            width: 300px;
+            height: 40px;
+            padding-top: 10px;
+        }
+
+        .main .LOGO div {
+            width: 230px;
+            height: 66px;
+            background: #cfc0aa;
+            margin: 0 auto;
+            margin-top: 15px;
+            border: 1px solid #fff;
+            border-radius: 30px;
+            background: url(image/ly.gif)no-repeat center center;
+            transition: 1s;
+        }
+
+        .main .LOGO img {
+            transition: 1s;
+        }
+
+        .main .LOGO img:hover {
+            transition: 1s;
+            transform: rotate(360deg);  
+        }
+
+        .main .LOGO div:hover {
+            width: 400px;
+            height: 78px;
+            transition: 1s;
+        }
+
+        .foot {
+            width: 1200px;
+            margin:0 auto;
+            height: 1200px;
+           background: #Ccc;
+           margin-top: 10px;
+        }
+
+        .foot .foot_wz {
+            
+            font-size: 30px;
+            font-family: "楷体";
+            padding-top: 30px;
+            margin-left: 47px;
+            }
+        
+        .foot .foot_wz hr {
+            margin-top: 5px;
+            margin-right: 55px;
+        }
+
+        .foot .foot_zp {
+            width: 1100px;
+            height: 1100px;
+            background: #38c1f8;
+            margin: 0 auto;
+            margin-top: 10px;
+            border-radius: 30px;
+            }
+
+        .foot .foot_wz a {
+           color: #000;
+            
+        }
+
+        .foot .foot_wz h2 {
+            transition: 1s;
+        }
+
+        .foot .foot_wz h2:hover {
+            margin-left: 920px;
+            transition: 1s;
+        }
+        
+        .foot .foot_zp img {
+            width: 300px;
+            height: 300px;
+            float: left;
+            margin:60px 0px 0px 55px;
+            border-radius: 30px;
+            transition: 1s;
+        }
+
+
+        .foot .foot_zp span img:hover {
+            transition: 1s;
+            border-radius: 30px;
+            border-left: 15px solid red;
+            border-right: 15px solid red;
+        }
+
+        .A {
+            margin-top: 20px;
+            width: 1200px;
+            height: 10px;
+            margin-left: 192px;
+            background: #ccc;
+            margin: 0 auto;
+        }
+
+        .footer {
+            width: 1200px;
+            height: 300px;
+            margin: 0 auto;
+            background: #898989;
+            margin-top: 20px;
+            padding-top: 100px;
+        }
+
+        .footer .footer_w ul li a {
+            color: black;
+            text-align: center;
+        }
+
+        .footer .footer_w ul {
+            height: 33px;
+        }
+
+        .footer h2 {
+            transition: 1s;
+            margin-left: 100px;
+            font-family: "楷体";
+            font-size: 45px;
+        }
+
+        .footer h2:hover {
+            margin-left: 900px;
+            transition: 1s;
+        }
+
+        .footer .footer_w {
+            margin: 0 auto;
+            width:  1000px;
+            height: 246px;
+            
+
+        }
+
+        .footer hr {
+            margin-left: 100px;
+            margin-right:115px ;
+        }
+
+        .footer .footer_n {
+            float: left;
+            margin-top: 20px;
+        }
+
+        .footer .footer_p {
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            margin-top: -200px;
+            margin-left: 800px;
+        }
+
+        .footer .footer_p P{
+            float: left;
+            font-size: 50px;
+            font-family: "楷体";
+        }
+
+
+        .footer .footer_w ul li{
+            float: left;
+            color: #777777;
+
+        }
+
+        .footer .footer_w dl {
+            float: left;
+            
+            }
+
+        .footer .footer_w dl dt,dd {
+            height: 33px;
+        }
+
+        .pagefooting {
+            background: #999;
+            width: 1200px;
+            height: 50px;
+            margin: 0 auto;
+            line-height: 50px;
+        }
+
+        
+
+
+    </style>
+    <link rel="shortcut icon" href="image\LOGO.ico">
+</head>
+<body style="height:2000px;background: #222222;">
+    <div class="header">
+        <div class="logo">
+            <img src="..\image\LOGO.png" alt="">
+            <span>独行网络科技</span>
+        </div>
+        <div class="nav">
+        <ul>
+            <li><a href="#" style="border-left:1px solid #000000 ;">首页</a></li>
+            <li><a href="#">空间</a></li>
+            <li><a href="#">关于</a></li>
+            <li><a href="#">联系</a></li>
+            <li><a href="#">注册</a></li>
+            <li><a href="#">返回</a></li>
+            <li><a href="#">资源</a></li>
+            <li><a href="#">影院</a></li>
+        </ul>
+      </div>
+      <div class="navr">
+          <a href="#">CN/EN</a>
+      </div>
+    </div>
+    <div class="banner">
+        <img src="image\banner.jpg">
+    </div>
+    <div class="navbar">
+        <a href="#" class="wz">/-独行网络科技  点后面加我QQ-/</a>
+        <audio controls autoplay loop="loop">
+            <source src="image\暖茶一杯.mp3">
+        </audio>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=1973249727&site=qq&menu=yes"target="_black"><img src="..\image\more.jpg" alt=""></a>
+    </div>
+    <div class="main">
+        <div class="tltie">
+            <h3>个人简介</h3>
+        </div>
+        <div class="LOGO">
+            <img src="image\头像LOGO.jpg" alt="">
+            <P>姓名：刘燚埙</P>
+            <P>专业技术：Web前端 Web网络安全</P>
+            <P style="margin-right:150px;">说明：</P>
+            <div></div>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="foot_wz">
+           <H2><a href="">作品预览</a></H2><hr>
+        </div>
+        <div class="foot_zp">
+            <span><img src="image\1.jpg" alt=""></span>
+            <span><img src="image\2.jpg" alt=""></span>
+            <span><img src="image\3.jpg" alt=""></span>
+            <span><img src="image\5.jpg" alt=""></span>
+            <span><img src="image\6.jpg" alt=""></span>
+            <span><img src="image\7.jpg" alt=""></span>
+            <span><img src="image\8.jpg" alt=""></span>
+            <span><img src="image\9.jpg" alt=""></span>
+            <span><img src="image\10.jpg" alt=""></span>
+        </div>
+    </div>
+    <div class="A">
+
+    </div>
+    <div class="footer">
+        <H2>帮助中心</H2><hr>
+        <div class="footer_w">
+            <div class="footer_n">
+                <ul>
+                    <li><a href="#">利息</a>丨</li>
+                    <li><a href="">关于</a>丨</li>
+                    <li><a href="#">利益</a>丨</li>
+                    <li><a href="#">合作</a>丨</li>
+                    <li><a href="#">公司</a></li>
+                </ul>
+                <dl>
+                    <dt>湖南省泸溪县泸溪职中07433（辛女广场旁）泸ICP备12024896号-1
+                        <dd>业务咨询：18569743027</dd>
+                        <dd>售后服务：18569743027</dd>
+                        <dd>公司传真：18569743027</dd>
+                        <dd>联系QQ：1973249727</dd>
+                    </dt>
+                </dl>
+            </div>
+        </div>
+        <div class="footer_p">
+            <P>联系电话：18569743027</P>
+        </div>
+    </div>
+    <div class="pagefooting">
+        <h2 align="center">@独行网络科技</h2>
+    </div>
+</body>
+</html>
